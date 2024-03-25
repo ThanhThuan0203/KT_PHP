@@ -1,0 +1,141 @@
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Thiết lập font chung cho toàn bộ trang */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Định dạng bảng */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+/* Màu nền cho các dòng chẵn */
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Màu chữ của tiêu đề cột */
+table th {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Thẻ img */
+table img {
+  max-width: 50px; /* Giới hạn chiều rộng tối đa của hình ảnh */
+  height: auto; /* Đảm bảo tỷ lệ khung hình được duy trì */
+  display: block; /* Hiển thị hình ảnh là một khối (block element) */
+  margin: 0 auto; /* Căn giữa hình ảnh trong ô */
+}
+
+/* Reset các giá trị mặc định của các phần tử */
+body, header, p, form, input {
+  margin: 0;
+  padding: 0;
+}
+
+/* Thiết lập font chung cho toàn bộ trang */
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Form đăng nhập */
+form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Field label */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Error message */
+.error {
+  color: red;
+  margin-bottom: 10px;
+}
+
+/* Buttons */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.add-btn {
+  background-color: #28a745;
+}
+
+.edit-btn {
+  background-color: #ffc111;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+}
+
+.logout-btn {
+  background-color: #6c757d;
+}
+.submit input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.submit input[type="submit"]:hover {
+  background-color: #0056b3;
+} 
